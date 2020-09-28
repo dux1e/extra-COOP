@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.target=OrderLine
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ OrderLine\ here.\r\n\r\n\ @Joakim\ Christensen\r\n\ @29-09-2020\r\n
+comment1.params=newAmount\ newOrder\ newProduct
+comment1.target=OrderLine(int,\ Order,\ Product)
+comment2.params=
+comment2.target=void\ getOrderLineDetail()
+numComments=3
