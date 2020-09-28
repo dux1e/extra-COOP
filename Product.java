@@ -33,5 +33,8 @@ public class Product
         System.out.println("Product stock: " + amountOnStock);
         System.out.println("~~~~~~~~~~~~~~~~~~~~~~~");
     }
-        
+    
+    public double getPrice() {
+        return price;
+    }
 }

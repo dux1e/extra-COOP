@@ -25,12 +25,12 @@ public class OrderLine
         product.getProductDetail();
         order.getOrderDetail();
         System.out.println("The total price of the order is");
-        System.out.println("-------------------------------");
-        int priceOfOrder;
-        // product.price * amount = priceOfOrder;
-       
-        
-        
-        System.out.println("");
+        System.out.println("-------------------------------");        
+        System.out.println(getOrderPrice() + " Kr,-");
+    }
+    
+    public double getOrderPrice() {
+        // double newPrice = product.getPrice();
+        return amount * product.getPrice();
     }
 }
